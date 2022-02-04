@@ -7,18 +7,5 @@ import javax.inject.Named;
 @RequestScoped
 public class HelloWorldController {
 	
-	private String nome;
 
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	
-	public void salvar() {
-		System.out.println(getNome());
-	}
-	
 }
